@@ -9,3 +9,5 @@ print(colours)
 car_data = pd.DataFrame({"Car make": series, "Colour": colours})
 print(car_data)
 
+df = pd.read_csv('/Users/ulugbek_turaev/Desktop/sample_project/car-sales.csv')
+print(df)
