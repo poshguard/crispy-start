@@ -18,3 +18,5 @@ print(car_sales_missing)
 car_sales_missing_dropped = car_sales_missing.dropna()
 
 car_sales_missing_dropped.to_csv("car-sales-missing-dropped.csv")
+
+
