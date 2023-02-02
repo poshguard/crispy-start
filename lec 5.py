@@ -18,8 +18,9 @@ zeros = np.zeros((2, 3))
 print(zeros)
 
 #4
-range_array = np.arrange(0, 10, 2)
+random_array = np.random.rand(5, 3)
+print(random_array)
 
-#
-random_array = np.random.randint(0, 10, size=(3, 5))
-random_array
+#5
+random_array1 = np.random.randint(10, size=(5, 3))
+print(random_array1)
